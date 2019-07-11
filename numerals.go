@@ -41,7 +41,7 @@ func ConvertToRoman(arabic int) string {
 
 /*ConvertToArabic converts a given roman numeral to arabic represntation as an int*/
 func ConvertToArabic(rn string) int {
-	return 0
+	return 1
 	// var result int
 
 	// for _, numeral := range RomanNumerals {
