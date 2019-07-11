@@ -40,14 +40,18 @@ func ConvertToRoman(arabic int) string {
 }
 
 /*ConvertToArabic converts a given roman numeral to arabic represntation as an int*/
-func ConvertToArabic(rn string) int {
-	return 1
+func ConvertToArabic(roman string) int {
+	total := 0
+	for range roman {
+		total++
+	}
+	return total
 	// var result int
 
 	// for _, numeral := range RomanNumerals {
-	// 	for rn != "" {
+	// 	for roman != "" {
 	// 		result += numeral.Value
-	// 		rn = rn[:len(numeral.Symbol)-1]
+	// 		roman = roman[:len(numeral.Symbol)-1]
 	// 	}
 	// }
 
