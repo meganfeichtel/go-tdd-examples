@@ -10,6 +10,8 @@ type RomanNumeral struct {
 
 /*RomanNumerals cointains an array of roman numeral structs*/
 var RomanNumerals = []RomanNumeral{
+	{50, "L"},
+	{40, "XL"},
 	{10, "X"},
 	{9, "IX"},
 	{5, "V"},
